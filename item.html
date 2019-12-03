@@ -8,14 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Shop Item - Start Bootstrap Template</title>
+  <title>PhoneSmart</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/shop-item.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -23,25 +22,34 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">PhoneSmart</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Trang chủ
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Shop</a>
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item active" href="item.html">Chi tiết sản phẩm</a>
+              <a class="dropdown-item" href="#">Giỏ hàng và thanh toán</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Liên Hệ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="signup.html">Đăng Kí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Đăng Nhập</a>
           </li>
         </ul>
       </div>
@@ -54,11 +62,11 @@
     <div class="row">
 
       <div class="col-lg-3">
-        <h1 class="my-4">Shop Name</h1>
+        <h1 class="my-4">PhoneSmart</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item active">Category 1</a>
-          <a href="#" class="list-group-item">Category 2</a>
-          <a href="#" class="list-group-item">Category 3</a>
+          <a href="#" class="list-group-item">Điện thoại di động</a>
+          <a href="#" class="list-group-item">Laptop</a>
+          <a href="#" class="list-group-item">Phụ kiện đi kèm</a>
         </div>
       </div>
       <!-- /.col-lg-3 -->
@@ -66,32 +74,49 @@
       <div class="col-lg-9">
 
         <div class="card mt-4">
-          <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+          <img class="card-img-top img-fluid" src="images/carousel_img1.jpg" alt="">
           <div class="card-body">
-            <h3 class="card-title">Product Name</h3>
-            <h4>$24.99</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+            <h3 class="card-title">Điện thoại xyz</h3>
+            <h4>10.000.000VND</h4>
+            <p class="card-text">Là chiếc điện thoại cao cấp hiếm hoi có kích thước nhỏ gọn. Bạn sẽ được cầm trong tay
+              một mẫu smartphone vừa vặn trong lòng bàn tay nhưng mang trên mình sức mạnh đáng kinh ngạc. Bộ vi xử lý
+              mạnh mẽ nhất thế giới Android kết hợp cùng 6GB RAM và 128GB bộ nhớ trong cho phép bạn làm mọi thứ một cách
+              mượt mà.
+              Công nghệ màn hình Dynamic AMOLED thế hệ mới mang đến hình ảnh chuẩn HDR10+, độ phân giải Full HD+ siêu
+              sắc nét. Mọi khung hình đều hiện lên chân thực, độ tương phản cao và màu sắc vô cùng sống động. Màn hình
+              hiển thị chuẩn điện ảnh, kết hợp cùng hệ thống âm thanh nổi của loa ngoài stereo, công nghệ Dolby Atmos
+              khiến xzy trở thành phương tiện giải trí di động hoàn hảo nhất.
+            </p>
+            <a href="item.html" class="btn btn-info" role="button">Mua Ngay!</a>
             <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-            4.0 stars
+            4.0 sao
           </div>
         </div>
         <!-- /.card -->
 
         <div class="card card-outline-secondary my-4">
           <div class="card-header">
-            Product Reviews
+            Đánh giá
           </div>
           <div class="card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <p>Giao Hàng rất nhanh ngoài mong đợi. Đặt hàng buổi chiều trưa mai đã nhận được hàng. Đóng gói tốt, sàn
+              phẩm đẹp.Trong lô hàng có ốp lưng trong nhựa dẻo. kiem tra bảo hành từ 6060 thì đã kích hoat BH trước ngày
+              nhận hàng 3 ngày. Mong sao quá trình sử dụng ko sảy ra sự cố gì.</p>
+            <small class="text-muted">Trần Trung Hiếu - 3 tháng trước</small>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <p>Đóng hộp cẩn thận, nguyên seal, hàng chính hãng Samsung Vina, số imel trùng với hóa đơn VTA cung cấp
+              trong Mail, tuy đã kích hoạt bằng tổng đài 6060 nên ngày bh trôi mất 1 tháng hơn nhưng giữ phiếu VTA thì
+              vẫn đc samsung bảo hành đủ 12 tháng (tính ngay theo hóa đơn VTA)
+              lưu ý, : mọi người nên kiểm tra kỹ imel trong hóa đơn VAT (VAT đc cung cấp trong mail hoặc trong tài khoản
+              Tiki phần đơn hàng) và máy điện thoại phải trùng nhau như của mình thì mọi việc mới ok hết nha.</p>
+            <small class="text-muted">Nguyễn Tiên Phong - 7 tháng trước</small>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <p>Sau gần 1 tháng sử dụng điện thoại Samsung Galaxy A50 mình có nhận xét như sau:
+                - Điện thoại chạy ổn định, pin rất tốt, thường phải 4 ngày mình mới phải sạc điện thoại 1 lần
+                - Camera thường chụp hình hơi ảo, mình thích chụp hình tự nhiên, camera này thích hợp với người sống ảo</p>
+            <small class="text-muted">Vũ Thị Cánh - 2 tháng trước</small>
             <hr>
-            <a href="#" class="btn btn-success">Leave a Review</a>
+            <a href="#" class="btn btn-success">Xin hãy đánh giá sản phẩm</a>
           </div>
         </div>
         <!-- /.card -->
@@ -107,7 +132,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; LOLOLOLOLOLOLOLOLOLOLOLOLOLOL</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -115,7 +140,6 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
